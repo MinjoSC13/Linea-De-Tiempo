@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Neucha';
+}
+html{
+    scroll-behavior: smooth; 
+}
+section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#inicio {
+    background-color: #f6830f;
+}
+
+#a1930{
+	background-color: #FCF8E8;
+}
+#a1954{
+	background-color: #D4E2D4;
+}
+#a1962{
+	background-color: #ECB390;
+}
+#a1970{
+	background-color: #E5DF88;
+}
+#a1978{
+	background-color: #FFE5B9;
+}
+#a1986{
+	background-color: #EBD4D4;
+}
+#a1998{
+	background-color: #C9CBFF;
+}
+#a2002{
+	background-color: #A6A9B6;
+}
+#a2006{
+	background-color: #F5F4F4;
+}
+#a2010{
+	background-color: #FCD1D1;
+}
+#a2014{
+	background-color: #ECE2E1;
+}
+#inicio h1{
+    font-size: 68px;
+    letter-spacing: 5px;
+}
+section h2 {
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+section img{
+	margin-top: 30px;
+	max-width: 300px;
+}
+.contenedor-tiempo{
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+}
+.contenedor-tiempo .linea{
+	width: 900px;
+	position: absolute;
+	top: 30px;
+	height: 2px;
+	background-color: black;
+	z-index: -2;
+}
+.fecha{
+	display: inline-block;
+	font-size: 20px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #2D4059;
+	text-decoration: none;
+	color: white;
+	margin: 0 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	scale: 1;
+	transition: background-color, transform .5s linear;
+}
+.seleccionado{
+	transform: scale(1.2) ;
+	background-color: #EA5455;
+	color: #000;
+	font-weight: bold;
+}
